@@ -17,13 +17,11 @@ function Landingpage() {
       </header>
 
       {/* Hero Section */}
-      <main className="hero">
+       <main className="hero">
+        <h1 className="title">SEXXIFY</h1>
+        <img src={sofa} alt="Sofa" className="sofa" />
         <div className="side-text left">. . YOU WILL . .</div>
         <div className="side-text right">. . LOVE THIS . .</div>
-
-        <h1 className="title">SEXXIFY</h1>
-
-        <img src={sofa} alt="Red Sofa" className="sofa" />
       </main>
     </div>
   );
