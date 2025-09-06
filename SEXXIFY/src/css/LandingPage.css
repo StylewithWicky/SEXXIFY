@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.landing-container {
+  height: 150vh;
+  width: 100vw;
+  background: url("../assets/background.jpeg") no-repeat center center/cover; /* replace with your background image */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #ff6666;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #cc0000;
+  border-color: #cc0000;
+}
+
+/* Hero Section */
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-size: 150px;
+  letter-spacing: 10px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+  font-family: "Times New Roman", serif;
+  font-weight: 100;
+}
+
+.sofa {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Side Text */
+.side-text {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  letter-spacing: 8px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: 100;
+}
+
+.side-text.left {
+  left: 120px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.side-text.right {
+  right: 120px;
+  transform: translateY(-50%);
+}
